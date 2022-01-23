@@ -1,0 +1,42 @@
+[ORIGINAL] We'll give you your revenge.
+[NOISY] We'll give you your revenge
+original and noisy are the same: False
+
+
+
+[ORIGINAL] You must do your best.
+[NOISY] u must dobyour b
+original and noisy are the same: False
+
+
+
+[ORIGINAL] Let me in under your umbrella.
+[NOISY] Let me in under your umbrella
+original and noisy are the same: False
+
+
+
+source_avg_len 24.392060738878907
+
+
+target_avg_len 9.15645869901642
+
+
+context_avg_len 13.998608240462811
+
+
+noisy_avg_len 10.393452498416094
+
+
+                                              source                                   target
+0  repair_sentence: Straighten up. oltnto Blls. D...                      Post No Bills. </s>
+1  repair_sentence: Duck! Jim? Where is  context:...                       Where is Jim? </s>
+2  repair_sentence: Teachers must understand chil...  Teachers must understand children. </s>
+3  repair_sentence: Quieter! e, unbelieable! cont...                  Gee, unbelievable! </s>
+4  repair_sentence: Grab him. Straighten up. cont...                      Straighten up. </s>
+5  repair_sentence: Off it wen Straighten up. con...                        Off it went. </s>
+6  repair_sentence: Answer in English. context: {...                  Answer in English. </s>
+7  repair_sentence: ou swim underw context: {Get ...            Can you swim underwater? </s>
+8  repair_sentence: I dot lihe it, eihe I don't, ...                    I don't, either. </s>
+9  repair_sentence: e er him  context: {I remembe...                I remember him well. </s>
+

@@ -475,7 +475,7 @@ if __name__ == "__main__":
     #      Since i only have french in this example, I pass in ["fra"] as languages. If i had english and german too, I 
     #      would have passed `languages=["deu", "eng", "fra"]`
     
-    file_path = DataHandler.prepare_tatoeba_data("data/", languages=["fra"],
+    file_path = DataHandler.prepare_tatoeba_data("data/", languages=["eng"],
                                                  max_num_rows_to_process=100000)
                                                  
     # Ofcourse you don't need any data preparation if you already have a csv/tsv file containing one column with all your sentences :)
